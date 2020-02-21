@@ -12,6 +12,7 @@ public class Drink {
             new Drink("Schönbuch jäger spezial","Spezial export bier", R.drawable.schoenbuch_jaeger_spezial),
             new Drink("Schönbuch pils","Pils bier", R.drawable.schoenbuch_pils)
 
+
      };
 
     public Drink(String name, String description, int imageResourceId) {
