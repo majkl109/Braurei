@@ -20,7 +20,7 @@ public class DrinkFragment extends Fragment {
                 for(int i = 0; i< drinksImages.length, i++){
                     drinksImages[i] = Drink.drinks[i].getImageResourceId();
             }
-                CaptionedImagesAdapter adapter = new CaptionImagesAdapter(drinksImages);
+                CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(drinksImages);
                 drinkRecycler.setAdapter(adapter);
             GridLayoutManager layoutManager = new GridLayoutManager(getActivity(),2);
             drinkRecycler.setLayoutManager(layoutManager);
